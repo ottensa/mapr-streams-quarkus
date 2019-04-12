@@ -24,8 +24,8 @@ maprcli stream create -path /quarkus-stream -produceperm p -consumeperm p -topic
 
 Next we start the producer container, in the env.file we define:
 
-	* NAME: the name of the cluster
-	* CLDBS: a list of the CLDBs hostnames/IPs
+* NAME: the name of the cluster
+* CLDBS: a list of the CLDBs hostnames/IPs
 
 ```
 docker run -it --env-file=/path/to/env.file -v /path/to/maprticket:/tmp/maprticket mapr-streams-quarkus_producer:latest
