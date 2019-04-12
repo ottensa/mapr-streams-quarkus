@@ -1,3 +1,9 @@
+# IDE
+.DS_Store
+.classpath
+.project
+.settings
+
 # Compiled class file
 *.class
 
@@ -21,3 +27,10 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Docker env.list
+docker/env.list
+
+target/
+
+maprticket
